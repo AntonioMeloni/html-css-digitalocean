@@ -1,5 +1,6 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
+    padding-top: 70px;
 }
 
 .navbar{
@@ -43,4 +44,39 @@ body{
     background: #0069ff;
     color: white;
     border-color: #0069ff;
+}
+
+.banner{
+    background-color: #0a1b4e;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-size: cover;
+}
+
+.banner .ms--banner-text{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.ms--jumbotron{
+    background-color: white;
+    padding: 20px;
+    transform: translateY(50%);
+    border-radius: 5px;
+}
+
+.ms--jumbotron h3{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
 }
