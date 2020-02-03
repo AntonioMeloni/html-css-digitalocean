@@ -140,3 +140,37 @@ body{
     padding-top: 20px;
     color: #5b6987;
 }
+/* FINE BANNER */
+
+.ms--business-title h5{
+    color: #99a3b8;
+    font-weight: 700;
+}
+
+.business-solutions{
+    background-color: #f3f5f9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ms--business-logo{
+    height: 100px;
+    padding: 10px;
+}
+
+.ms--business-logo img{
+    height: 80px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.business-solutions a{
+    font-size: 18px;
+    color: #0f69ff;
+    font-weight: 700;
+}
+
+.business-solutions a:hover{
+    color: #005fe6;
+    text-decoration: none;
+}
