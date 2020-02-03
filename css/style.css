@@ -69,14 +69,74 @@ body{
 }
 
 .ms--jumbotron{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 85%;
     background-color: white;
     padding: 20px;
-    transform: translateY(50%);
     border-radius: 5px;
+    float: right;
 }
 
 .ms--jumbotron h3{
     font-size: 30px;
     font-weight: 800;
     padding-bottom: 20px;
+}
+.form-control{
+    border: 1px solid #f1f1f1;
+}
+
+.form-control::placeholder{
+    color:rgba(3,27,78,.75);
+}
+
+.ms--jumbotron img{
+    height: 18px;
+    display: inline;
+    margin-right: 50px;
+}
+.ms--jumbotron h4{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #5b6987;
+}
+
+.ms--jumbotron h4::before,
+.ms--jumbotron h4::after {
+    content: '';
+    display: inline-block;
+    width: 30%;
+    height: 1px;
+    background-color: lightgray;
+    position: relative;
+    bottom: 5px;
+}
+
+.ms--jumbotron button{
+    display: inline-block;
+    background-color: #f2f8ff;
+    border-color: #c2dcff;
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 60px;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ms--jumbotron button:hover{
+    background-color: #d5e4f7;
+    border-color: #c2dcff;
+}
+
+.ms--jumbotron button.left{
+    float:left;
+    margin-right: 15px;
+}
+.ms--jumbotron h6{
+    padding-top: 20px;
+    color: #5b6987;
 }
