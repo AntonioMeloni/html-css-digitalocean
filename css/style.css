@@ -91,6 +91,16 @@ body{
     color:rgba(3,27,78,.75);
 }
 
+.ms--jumbotron button.create-account{
+    background-color: #0069ff;
+    border-radius: 4px;
+    color:white;
+}
+
+.ms--jumbotron button.create-account:hover{
+    background: #1633ff;
+}
+
 .ms--jumbotron img{
     height: 18px;
     display: inline;
@@ -173,4 +183,58 @@ body{
 .business-solutions a:hover{
     color: #005fe6;
     text-decoration: none;
+}
+/* FINE BUSINESS SOLUTIONS AREA */
+
+.ms--deploy-title h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #031b4e;
+    padding-top: 100px;
+}
+
+.ms--deploy-title h3{
+    color: #51628a;
+    font-size: 22px;
+}
+
+.ms--deploy-menu{
+    padding-top: 50px;
+}
+
+.ms--deploy-menu li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 1px solid #e5e8ed;
+    padding-left: 20px;
+}
+
+.ms--deploy-menu a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #51628a;
+}
+
+.ms--deploy-menu li:hover a{
+    text-decoration: none;
+    color: #031b4e;
+}
+
+.ms--deploy-menu li:hover{
+    border-left: 2px solid #0069ff;
+}
+
+.ms--box h2{
+    color: #031b4e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ms--box p{
+    color: #51628a;
+    font-size: 17px;
+}
+
+.ms--box{
+    padding-top: 50px;
 }
