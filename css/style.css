@@ -69,9 +69,7 @@ body{
 }
 
 .ms--jumbotron{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 85%;
+    margin: 30px 20px;
     background-color: white;
     padding: 20px;
     border-radius: 5px;
