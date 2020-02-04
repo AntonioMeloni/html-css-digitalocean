@@ -271,7 +271,7 @@ body{
     font-size: 17px;
 }
 
-.ms--slide-container i{
+.fa-circle{
     color: #0069ff;
     padding-left: 5px;
     padding-right: 5px;
@@ -350,3 +350,61 @@ body{
 }
 
 /* FINE DATACENTER AREA */
+
+.ms--feedback{
+    background-color: #f3f5f9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ms--testimoniance{
+    background-color: white;
+    padding-bottom: 80px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.ms--feedback h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #031b4e;
+    padding-bottom: 30px;
+}
+
+.ms--feedback p{
+    background-color: #f3f5f9;
+    color: #51628a;
+    font-size: 21px;
+}
+
+.ms--testimoniance img{
+    max-width: 175px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ms--testimoniance p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    background-color: white;
+}
+
+.ms--testimoniance strong{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+.ms--testimoniance h5{
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+.ms--testimoniance a{
+    font-size: 18px;
+    color: #0f69ff;
+    font-weight: 700;
+}
+
+.ms--feedback i:first-of-type{
+    font-weight: 700;
+}
