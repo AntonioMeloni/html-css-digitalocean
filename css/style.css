@@ -281,3 +281,72 @@ body{
 .ms--slide-container i:first-of-type{
     font-weight: 700;
 }
+/* FINE SLIDE AREA */
+
+.ms--built{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ms--built-title h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: #031b4e;
+}
+
+.ms--built .ms--box{
+    padding: 25px;
+}
+
+.ms--built a{
+    font-size: 18px;
+    color: #0f69ff;
+    font-weight: 700;
+}
+/* FINE BUILT AREA */
+
+.ms--datacenter{
+    background: #031b4e url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ms--datacenter h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+}
+
+.ms--datacenter li h4{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 50px;
+}
+
+.ms--datacenter li{
+    width: 100%;
+    border-bottom: 1px solid #354971;
+    padding: 10px 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ms--datacenter li a{
+    float: right;
+    color: #00d7d2;
+    font-weight: 700;
+}
+
+.ms--column{
+    padding-top: 50px;
+}
+
+.ms--column li:last-of-type{
+    border-bottom: none;
+}
+
+/* FINE DATACENTER AREA */
