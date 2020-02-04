@@ -408,3 +408,85 @@ body{
 .ms--feedback i:first-of-type{
     font-weight: 700;
 }
+
+.ms--getstarted{
+    background-color: #0049ff;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ms--getstarted h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.ms--getstarted button{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0049ff;
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #010e28;
+}
+
+.ms--footer-links{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #354971;
+}
+
+.ms--footer-column h3{
+    color: white;
+    font-size: 16px;
+}
+
+.ms--footer-column li{
+    padding-bottom: 10px;
+}
+
+.ms--footer-column li a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ms--footer-column li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.ms--sub-footer{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.ms--sub-footer svg{
+    vertical-align: middle;
+}
+
+.ms--sub-footer p{
+    display: inline;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ms--sub-footer li i{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+}
+.ms--sub-footer li i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.ms--sub-footer ul{
+    padding-top: 20px;
+    float: right;
+}
