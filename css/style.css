@@ -73,7 +73,6 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 5px;
-    float: right;
 }
 
 .ms--jumbotron h3{
@@ -102,7 +101,7 @@ body{
 .ms--jumbotron img{
     height: 18px;
     display: inline;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 .ms--jumbotron h4{
     display: block;
@@ -122,20 +121,21 @@ body{
     bottom: 5px;
 }
 
-.ms--jumbotron button{
+.ms--jumbotron .ms--account {
+    width: 47%;
     display: inline-block;
     background-color: #f2f8ff;
     border-color: #c2dcff;
     color: #031b4e;
     font-size: 18px;
     font-weight: 700;
-    padding-right: 60px;
+    /* padding-right: 50px; */
     border-radius: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.ms--jumbotron button:hover{
+.ms--jumbotron .ms--account:hover{
     background-color: #d5e4f7;
     border-color: #c2dcff;
 }
@@ -205,6 +205,7 @@ body{
     padding-top: 10px;
     border-left: 1px solid #e5e8ed;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .ms--deploy-menu a{
@@ -220,6 +221,19 @@ body{
 
 .ms--deploy-menu li:hover{
     border-left: 2px solid #0069ff;
+}
+
+@media screen and (max-width: 991px) {
+    .ms--deploy-menu li{
+        display: inline-block;
+        border: none;
+        border-bottom: 1px solid #e5e8ed;
+    }
+
+    .ms--deploy-menu li:hover{
+        border-bottom: 2px solid #0069ff;
+        border-left: none;
+    }
 }
 
 .ms--box h2{
